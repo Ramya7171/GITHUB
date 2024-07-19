@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(45deg, rgb(247, 86, 107), rgb(127, 84, 243));
+    border-color: black;
+    border-style: solid;
+    border-width: 10px;
+}
+
+header {
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+video {
+    background-color: black;
+    margin-top: 15px;
+}
+
+video,
+audio {
+    margin-left: 30%;
+
+}
+
+marquee {
+    color: rgb(6, 14, 126);
+}
+
+p {
+    width: 90%;
+    margin-left: 45px;
+}
+.r {
+   background-color: black;
+   padding: 13px;
+   color: brown;
+
+}
+
+a {
+    font-size: large;
+    color: brown;
+    margin-left:15%;
+    text-decoration: none;
+    border-color: black;
+
+
+
+}
