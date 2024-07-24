@@ -1,0 +1,87 @@
+body{
+    margin-top: 30px;
+}
+header{
+    text-align: center;
+    background-color: #e204ab;
+    border-radius: 5px;
+    width: 100%;
+
+}
+.first-container {
+    width: 30%;
+    height: 100%;
+    border-color: aliceblue;
+    border-width: .2px;
+    border-style: solid;
+    box-shadow: 3px 3px 3px white;
+}
+img {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px;
+    height: 150px;
+}
+h3{
+    color: rgb(103, 150, 238);
+}
+button {
+    width: 150px;
+    height: 20px;
+    margin-top: 7px;
+    color: white;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    text-align: start;
+    margin-left: 10px;
+    background: linear-gradient(45deg, rgb(161, 13, 33), rgb(77, 23, 224));   
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:oblique;
+
+}
+button:hover {
+    background-color:white;
+    border-left-width:3px ;
+    border-left-style: solid;
+    border-left-color: #e204ab;
+}
+label{
+    color: #e204ab;
+    font-style: normal;
+    font-size:1opx;
+    margin-top: 15px;
+    font-size: x-small;
+}
+input{
+    border-color: rgb(189, 184, 184);
+    border-width: 1px;
+    border-style: solid;
+    width:300px;
+    height: 16px;
+    box-shadow: 2px 2px 2px;
+
+}
+::placeholder{
+    font-size: 10px;
+}
+
+.profile{
+    
+    margin-left: 50px;
+    width: 100%; 
+}
+#RAMYA{
+    display: flex;
+    margin-left: 40px;
+    width: 80%;
+    height: 80%;
+    border-color: aliceblue;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+   background: linear-gradient(45deg, rgb(161, 13, 33), rgb(77, 23, 224));
+    box-shadow: 10px 10px 5px black;
+
+}
