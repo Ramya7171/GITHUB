@@ -23,7 +23,7 @@ img {
     height: 150px;
 }
 h3{
-    color: rgb(103, 150, 238);
+    color: rgb(157, 186, 240);
 }
 button {
     width: 150px;
@@ -48,7 +48,7 @@ button:hover {
     border-left-color: #e204ab;
 }
 label{
-    color: #e204ab;
+    color: #faace6;
     font-style: normal;
     font-size:1opx;
     margin-top: 15px;
@@ -66,11 +66,17 @@ input{
 ::placeholder{
     font-size: 10px;
 }
+h1{
+    color: rgb(240, 145, 145);
+}
 
 .profile{
     
     margin-left: 50px;
     width: 100%; 
+}
+.r{
+    margin-top: 5px;
 }
 #RAMYA{
     display: flex;

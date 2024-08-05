@@ -1,0 +1,175 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+body {
+display: flex;
+height: 100vh;
+background-color: #f0f0f3;
+}
+
+.container {
+display: flex;
+width: 900%;
+}
+
+.sidebar {
+width: 250px;
+background-color: #dad3d3;
+color: #fff;
+padding: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+ h2 {
+    position: relative;
+    color: black;
+    left: 70px;
+    bottom: 90px;
+
+}
+
+.sidebar nav ul {
+list-style: none;
+}
+
+.sidebar nav ul li {
+margin-bottom: 15px;
+}
+
+.sidebar nav ul li a {
+color: #1b0101;
+text-decoration: none;
+position: relative;
+bottom: 100px;
+}
+
+.sidebar nav ul li.active > a {
+font-weight: bold;
+position: relative;
+}
+select {
+    font-weight: 50px;
+    padding: 7px;
+}
+select:hover{
+    background-color: rgb(148, 148, 243);
+
+}
+
+.sidebar nav ul li ul {
+list-style: none;
+position: relative;
+margin-left: 20px;
+}
+
+.sidebar nav ul li ul li a {
+font-size: 24px;
+position: relative;
+top: 50px;
+}
+
+.sidebar .logout {
+color: #130101;
+text-decoration: none;
+font-weight: bold;
+position: relative;
+margin-bottom: 20px;
+}
+nav ul li img{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    bottom: 100px;
+    margin-right: 20px;
+}
+#a{
+    margin-bottom: 40px;
+}
+
+.main-content {
+flex-grow: 1;
+padding: 20px;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+}
+.header input{
+    width: 400px;
+    padding: 8px;
+
+}
+
+
+.header .profile {
+display: flex;
+align-items: center;
+margin-right: 50px;
+}
+
+.header .profile img {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+margin-left: 290px;
+}
+
+.account-info h1 {
+margin-bottom: 20px;
+}
+
+form {
+background-color: #fff;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+margin-bottom: 15px;
+
+
+}
+.form-group-1{
+    display: flex;
+}
+.t{
+    position: relative;
+    left: 90px;
+}
+
+.form-group label{
+display: flex;
+margin-bottom: 5px;
+width: 480px;
+}
+
+.form-group input,
+.form-group textarea {
+width: 100%;
+padding: 15px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.form-actions {
+text-align: center;
+}
+
+.form-actions button {
+background-color: #28a745;
+width: 270px;
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+}
