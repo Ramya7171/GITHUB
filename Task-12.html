@@ -4,127 +4,228 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User profile</title>
+    <title>User Profile</title>
     <style>
         body {
-            margin-top: 50px;
-            margin-left: 50px;
-            background-color: black;
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
         }
 
-        header {
+        .container {
             display: flex;
-            margin-left: 750px;
         }
 
-        .main-cantainer {
-            width: 80%;
-            height: 500px;
-            margin-left: 30px;
-            background-color: rgb(248, 246, 248);
-        }
-
-        h3 {
-            margin-left: 40px;
-        }
-
-        img {
-            padding: 10px;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-        }
-
-        .RR {
-            width: 25%;
-            height: 85%;
-            border: 1px solid black;
+        .container header {
+            display: flex;
             position: relative;
-            bottom: 15px;
-            border-top: none;
+            margin-left: 40px;
+
         }
 
+        .container header img {
+            margin-left: 20px;
+        }
+
+        .container header h3 {
+            left: 10px;
+        }
+
+        .sidebar {
+            width: 200px;
+            margin-top: 20px;
+            background-color: #ffffff;
+            padding: 40px;
+            border-right: 1px solid #ddd;
+            height: 100vh;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
 
         .sidebar a {
             display: block;
+            color: #555454;
             text-decoration: none;
+            margin-bottom: 15px;
             margin-top: 35px;
-            margin-left: 100px;
-            color: rgb(14, 3, 3);
+            margin-right: 10px;
         }
 
         .sidebar a:hover {
-            background-color: rgb(250, 216, 222);
-            padding: 15px;
-            width: 50%;
+            color: #000000;
             border-right-style: solid;
-            border-right-color:rgb(241, 119, 75);
+            border-right-color: orangered;
+            border-right-width: 5px;
         }
-     .second-container{
+
+        .content {
+            flex: 1;
+            padding: 40px;
+        }
+
+        .profile-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .profile-header img {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            margin-right: 20px;
+        }
+
+        .profile-header h1 {
+            margin: 0;
+        }
+
+        .profile-header p {
+            margin: 0;
+            color: #777;
+        }
+
+        .header .bar {
             display: flex;
             position: relative;
-            margin-bottom: ;
-        
+            left: 60%;
         }
-        .Third-container{
-            
-    
+
+        .header .bar h3 {
+            top: 15px;
+
+            margin-left: 25px;
         }
-    
+
+        .form-group-1 {
+            display: flex;
+        }
+
+        .E {
+            position: relative;
+            left: 50px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            width: 400px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .form-group input {
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .save-btn {
+            width: 400px;
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #f0833a;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            margin-left: 300px;
+            margin-top: 70px;
+        }
+
+        .save-btn:hover {
+            background-color: #6621e6;
+        }
     </style>
 </head>
 
 <body>
-    <div class="main-cantainer">
-            <header> <img src="c:\Users\ELCOT\Downloads\download (5).jfif" alt="RR">
-                <h4>Ramya Devi T</h4>
+    <div class="container">
+        <div class="sidebar">
+            <h2>User Profiles</h2>
+            <a href="#"> <img src="c:\Users\ELCOT\Downloads\user.png">User info</a>
+            <a href="#"> <img src="c:\Users\ELCOT\Downloads\heart.png"> Favorites</a>
+            <a href="#"> <img src="c:\Users\ELCOT\Downloads\star.png">Watchlist</a>
+            <a href="#"> <img src="c:\Users\ELCOT\Downloads\setting.png"> Setting</a>
+            <a href="#"> <img src="c:\Users\ELCOT\Downloads\active.png">Notifications</a>
+            <div id="log">
+                <a href="#" style="color: #ff6600; margin-top: 120px;"> <img src="c:\Users\ELCOT\Downloads\logout.png"> Log out</a>
+            </div>
+        </div>
+        <div class="content">
+            <header class="header">
+                <div class="bar">
+                    <img style="width: 40px; height: 40px; border-radius: 50%; 
+                    border: 2px solid black ; bottom: 9px;" src="c:\Users\ELCOT\Downloads\Queen (1).png">
+                    <h3>Ramya Devi .T</h3>
+                </div>
             </header>
             <hr>
-            <div class="RR">
-                <h3>User Profile</h3>
-                <div class="sidebar">
-                    <a href="">User Info</a>
-                    <a href="">Favorite</a>
-                    <a href="">Watchlist</a>
-                    <a href="">Setting</a>
-                    <a href="">Notification</a>
+
+            <div class="profile-header">
+                <img src="c:\Users\ELCOT\Downloads\download (5).jfif" alt="Profile Picture">
+                <div>
+                    <h1>Ramya Devi</h1>
+                    <p>Tamilnadu, India</p>
                 </div>
-                <label>Log Out</label>
             </div>
-            <div class="second-container">
-                <img src="c:\Users\ELCOT\Downloads\Queen (1).png">
-                <h3> Ramya Devi.T</h3>
-            </div>
-            <div class="Third-container">
-                <div class="Bar">
-                    <Lable>Name</Lable>
-                    <input type="text"></input>
-                </div>
-                <div class="Bar">
-                    <Lable>Full Name</Lable>
-                    <input type="text"></input>
+            <form>
+                <div class="form-group-1">
+                    <div class="form-group">
+                        <label for="first-name">Name</label>
+                        <input type="text" id="first-name" name="first-name" value="Ramya">
+                    </div>
+                    <div class="form-group">
+                        <div class="E">
+                            <label for="last-name">Full Name</label>
+                            <input type="text" id="last-name" name="last-name" value="Devi">
+                        </div>
+                    </div>
                 </div>
 
-                <div class="Bar">
-                    <Lable>Email Addess</Lable>
-                    <input type="text"></input>
+                <div class="form-group-1">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" value="ramyadevi@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <div class="E">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" value="(+91) 9923582167">
+                        </div>
+                    </div>
                 </div>
-                <div class="Bar">
-                    <Lable>Phone Number</Lable>
-                    <input type="text"></input>
-                </div>
-                <div class="Bar">
-                    <Lable>Location</Lable>
-                    <input type="text"></input>
-                </div>
-                <div class="Bar">
-                    <Lable>Portal code</Lable>
-                    <input type="text"></input>
-                </div>
-            </div>
+                <div class="form-group-1">
 
+                    <div class="form-group">
+                        <label for="location">Location</label>
+                        <input type="text" id="location" name="location" value="Tamilnadu , India">
+                    </div>
+                    <div class="form-group">
+                        <div class="E">
+                            <label for="postal-code">Postal Code</label>
+                            <input type="text" id="postal-code" name="postal-code" value="638575">
+                        </div>
+                    </div>
+                </div>
+
+                <button type="button" class="save-btn">Save Changes</button>
+            </form>
+        </div>
     </div>
-
 </body>
 
 </html>
