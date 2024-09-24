@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css animation</title>
+<style>
+    ul{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        left: 40%;
+        top: 20%;
+    }
+ul li{
+    list-style: none;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    box-shadow: 1px 1px 0.5 pink;
+    animation: animate 7s linear infinite;
+    transform-origin: bottom center;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(359deg);
+    }
+}
+ul li:nth-child(1){
+    background-color: RED;
+    animation-delay: 0s;
+}
+ul li:nth-child(2){
+    background-color:ORANGE;
+    animation-delay: 1s;
+}
+ul li:nth-child(3){
+    background-color: yellow;
+    animation-delay: 2s;
+}
+ul li:nth-child(4){
+    background-color: rgb(6, 189, 6);
+    animation-delay: 3s;
+}
+ul li:nth-child(5){
+    background-color: rgb(40, 40, 238);
+    animation-delay: 4s;
+}
+ul li:nth-child(6){
+    background-color:rgb(129, 2, 108) ;
+    animation-delay: 5s;
+}
+ul li:nth-child(7){
+    background-color: rgb(245, 59, 121);
+    animation-delay: 6s;
+}
+</style>
+
+
+
+
+</head>
+<body>
+    <ul>
+        <li>R</li>
+        <li>A</li>
+        <li>M<li>
+        <li>Y</li>
+        <li>A</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    
+</body>
+</html>

@@ -37,22 +37,22 @@
                 <div class="form-group-1">
                     <div class="form-group">
                         <label for="firstName1">First Name</label>
-                        <input type="text" id="firstName1" name="firstName1" value="Ramya ">
+                        <input type="text" id="firstName1" value="Ramya ">
                     </div>
                     <div class="form-group">
-                        <label for="firstName2">Last Name</label>
-                        <input type="text" id="firstName2" name="Lastname" value="Devi">
+                        <label class="id">Last Name</label>
+                        <input type="text" id="lastName2"  value="Devi">
                     </div>
                 </div>
                 
-                <div class="personal">
+                <div class="form-group-1">
                     <div class="form-group">
                         <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" value="ramya1234@gmail.com">
+                        <input type="email" id="email" value="ramya1234@gmail.com">
                     </div>
                     <div class="form-group">
                         <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone" value="+84 789 373 568">
+                        <input type="tel" id="phone"  value="+91 789 373 568">
                     </div>
                 </div>
                 <h2 class="">Personal</h2>
@@ -62,7 +62,7 @@
                         <input type="text" id="country" name="country" value="Indian">
                     </div>
                     <div class="form-group">
-                        <label for="city">City</label>
+                        <label class="id">City</label>
                         <input type="text" id="city" name="city" value="Tenkasi">
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                         <input type="text" id="address" name="address" value="Address">
                     </div>
                     <div class="form-group">
-                        <label for="zip">Zip Code</label>
+                        <label class="id">Zip Code</label>
                         <input type="text" id="zip" name="zip" value="9185780">
                     </div>
                 </div>
@@ -144,7 +144,6 @@
     .content {
         flex: 1;
         padding: 20px;
-
     }
     .form .personal{
         width: 250px;
@@ -153,6 +152,10 @@
     .form img {
         width: 70px;
         height: 70px;
+    } 
+    .form.id{
+        position: relative;
+     margin-left: 30px;
     }
 
     h1 {
@@ -191,18 +194,14 @@
         margin-bottom: 15px;
 
     }
-
     .form-group-1 {
         display: flex;
-
-
     }
 
     .form-group label {
         display: block;
         margin-bottom: 5px;
     }
-
     .form-group input {
         width: 300px;
         padding: 10px;

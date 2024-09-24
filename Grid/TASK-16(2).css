@@ -1,0 +1,59 @@
+#gallery view {
+    margin: 50px;
+    width: 700px;
+    height: 700px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 3px 2px 3px rgb(206, 10, 212);
+
+}
+
+.img-1 {
+    display: grid;
+    grid-column: span 2;
+
+}
+
+ .img-2 {
+    display: grid;
+    grid-row: span 2;
+}
+
+ .img-3 {
+    display: grid;
+    grid-column: span 2;
+}
+
+ .img-4 {
+    display: grid;
+    grid-column: span 2;
+}
+
+ .img-5 {
+    display: grid;
+    grid-column: span 2;
+}
+ .img-6 {
+    display: grid;
+    grid-column: span 2;
+}
+
+.img-7 {
+    display: grid;
+    grid-column: span 1;
+}
+.img-8 {
+    display: grid;
+    grid-column: span 1;
+}
+ .img-9 {
+    display: grid;
+    grid-column: span 2;
+}

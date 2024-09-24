@@ -1,0 +1,154 @@
+body {
+    background-color: rgb(237, 237, 250);
+}
+.main-container{
+    display: flex;
+    width: 1500px;
+    height:1000px ;
+    margin: 50px;
+    border: 2px solid black;
+}
+
+#first {
+    display: block;
+    width: 300px;
+    height: 600px;
+    background-color: white;
+    border: 0.1px solid white;
+    box-shadow: 2px 2px 1px;
+}
+ .first-img {
+    width: 40px;
+    height:40px ;
+    border-radius: 50%;
+
+}
+#name{
+    width: 100px;
+    height: 100px;
+}
+
+#second ul li  {
+    list-style-type: none;
+    padding-top: 20px;
+}
+#second ul img{
+    width: 20px;
+    height: 20px;
+    margin-right:15px ;
+}
+
+header {
+    display: flex;
+}
+#third header{
+    height: 30px;
+    padding-top: 5px;
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 100px;
+}
+#third .third-img{
+    width: 15px;
+    height: 15px;
+}
+#third .head-2{
+    margin-left: 600px;
+}
+#third .head-2 label{
+    padding-left: 15px;
+}
+.outerbox {
+    width: 1000px;
+    height: 800px;
+    margin-left: 0px;
+    background-color: white;
+
+}
+
+.cards-1{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    background-color: rgb(82, 209, 209);
+    margin-left: 10px;
+    border-radius: 8px;
+    width: 40%;
+    box-shadow: 0 0 10px rgba(0 ,0,0,0.1);
+    display: flex;
+    
+}
+.card img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-top: 10px;
+    padding-top: 90px;
+    margin-left: 20px; 
+    border: 0.1px solid rgb(26, 25, 25);
+    padding: 5px;
+    background-color: white;
+}
+h4, p, label {
+    margin-left: 70px;
+    
+}
+.cards-2{
+    display: flex;
+    justify-content: space-between;
+    background-color: liner gradient();
+}
+.cards-2 img{
+    width: 20px;
+    height: 20px;
+}
+.active h3 ,.todo h3 ,.process-1 h3{
+    margin-left: 25px;
+}
+.active ,.todo ,.process-1{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 20px;
+    width: 40%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0 ,0,0,0.1);
+}
+.active ul, .todo ul,.process-1 ul {
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.process-1 li img{
+    margin-right: 10px;
+}
+
+.active ul img, .todo ul input,.process ul img{
+    margin-right: 15px;
+   
+}
+.active ul li, .todo ul li,.process ul li{
+    padding-top: 15px;
+    margin-left: 20px;
+}
+.cards-2 .todo input{
+    width: 22px;
+    height: 22px;
+}
+.cards-2 .todo input:hover{
+    background-color: rgb(82, 82, 243);
+}
+.cards-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-4{
+    display: flex;
+    justify-content: space-between;
+}
+.cards-5{
+    display: flex;
+    justify-content: space-between;
+}
